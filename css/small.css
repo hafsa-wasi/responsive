@@ -1,9 +1,86 @@
 /*
  * General/Utility Styles
 */
-
-
-
 body{
-  background-color: red;
+  font-size: 1.15rem;
 }
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.centre {
+  width: 68%;
+  margin-left: 10%;
+}
+
+#left {
+  float: left;
+  width: 65%;
+  padding-left: 12%;
+}
+#right {
+  float: left;
+  width: 35%;
+  padding: 5%;
+  padding-left: 0%;
+}
+#profile {
+  float: left;
+  width: 12%;
+  margin-top: 7%;
+  margin-right: 5%;
+  
+}
+
+#pet-details aside{
+  text-align: left;
+  float: left;
+  width: 79.6%;
+  line-height: 45px;
+  padding-top: 30px;
+  margin-left: 4%;
+}
+#all-icons{
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 79.6%;
+}
+.icons {
+  width: 28%;
+  font-size: 1.1rem;
+}
+
+#care h3{
+  float: left;
+  margin: 2rem 8% 4rem 0rem;
+}
+#tworow {
+  float: left;
+  margin: 2rem 8% 2rem 0rem;
+}
+#threerow {
+  float: left;
+  margin: 2rem 0rem 2rem 0rem;
+}
+#games h3{
+  float: left;
+  margin-right: 6rem;
+  margin-top: 2rem;
+}
+#games aside{
+  float: left;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+#dog-image img{
+  width: 30%;
+  height: 30%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+#dog-image {
+  padding: 1%;
+  padding-top: 0px;
+}
+
